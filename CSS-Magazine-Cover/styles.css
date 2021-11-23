@@ -1,0 +1,141 @@
+body {
+  margin: 0px;
+}
+.fondo {
+  width: 540px;
+  height: 750px;
+}
+.imagen-fondo {
+  position: absolute;
+  z-index: -1;
+  width: 540px;
+  height: 750px;
+}
+.selena {
+  position: absolute;
+  z-index: -1;
+}
+.title {
+  font-family: "Playfair Display", serif;
+  margin: -80px 0px 0px 140px;
+  color: white;
+  font-size: 222px;
+  position: absolute;
+  z-index: -1;
+}
+.title2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 222px;
+  margin: -80px 0px 0px 0px;
+  position: absolute;
+  z-index: -1;
+}
+.columns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 170px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+.without-title p {
+  margin: 0px;
+}
+.column2 p {
+  margin: 0px;
+}
+.column1 {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.column2 {
+  text-align: right;
+  margin-right: 15px;
+  margin-top: -35px;
+}
+.p1 {
+  color: yellow;
+  margin: 0px 0px 0px -20px;
+  font-size: 50px;
+  height: 55px;
+}
+.p2 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 15px;
+  height: 15px;
+}
+.p3 {
+  height: 25px;
+  font-size: 25px;
+}
+.p4 {
+  height: 20px;
+  font-size: 20px;
+}
+.p5 {
+  font-size: 20px;
+  height: 20px;
+  font-style: italic;
+}
+.p6 {
+  color: yellow;
+  padding-top: 40px;
+}
+.p7 {
+  font-size: 30px;
+  height: 23px;
+}
+.p8 {
+  font-size: 20px;
+  height: 18px;
+}
+.s1 {
+  height: 20px;
+}
+.s2 {
+  height: 10px;
+}
+.s3 {
+  height: 60px;
+}
+.s4 {
+  margin: 0px -15px 0px 0px;
+  font-size: 30px;
+  height: 23px;
+}
+.s5 {
+  height: 5px;
+}
+.s6 {
+  margin-bottom: -10px;
+}
+.p9 {
+  font-size: 10px;
+  height: 10px;
+  color: rgb(199, 199, 199);
+}
+.p10 {
+  color: rgb(145, 145, 145);
+  font-size: 30px;
+  height: 30px;
+}
+.p11 {
+  color: yellow;
+  font-size: 30px;
+  height: 25px;
+}
+
+.p12 {
+  font-size: 45px;
+  height: 40px;
+}
+.p13 {
+  color: yellow;
+  font-size: 70px;
+  height: 70px;
+  margin-right: -5px;
+}
