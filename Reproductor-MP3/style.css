@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: dashed black 1px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(247, 247, 247);
+}
+
+.button:active {
+  background-color: rgb(223, 223, 223);
+}
