@@ -1,0 +1,44 @@
+.team__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team {
+  width: 80%;
+  margin: 0 auto;
+}
+.member__photo {
+  max-width: 20vw;
+}
+.member__profile {
+  display: flex;
+}
+.member__role {
+  writing-mode: vertical-lr;
+  margin: 0;
+}
+.team__crew {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+  height: 140vh;
+}
+.member {
+  align-content: center;
+}
+.member:nth-child(3n + 2) {
+  align-self: end;
+}
+.member:nth-child(3n + 1),
+.member:nth-child(3n + 3) {
+  align-self: start;
+}
+@media (max-width: 801px) {
+  .member:nth-child(2n + 2) {
+    align-self: end;
+  }
+  .member:nth-child(2n + 1) {
+    align-self: start;
+  }
+}

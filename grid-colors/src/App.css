@@ -1,0 +1,37 @@
+.app {
+  padding: 1rem;
+}
+.box--container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 22rem;
+}
+.box {
+  background-color: black;
+  border: white 1px solid;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.box:active {
+  border: red 1px solid;
+}
+.selectColor {
+  border: white 1px solid;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.border__orange {
+  border: orange 3px solid;
+}
