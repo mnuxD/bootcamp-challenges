@@ -25,12 +25,17 @@ function Emoji() {
 
   return (
     <div className="App">
-      <textarea value={text} cols="30" rows="10" onChange={onTextAreaChange}></textarea>
+      <textarea
+        value={text}
+        cols="30"
+        rows="10"
+        onChange={onTextAreaChange}
+      ></textarea>
       <input
         className="app__input"
         type="text"
         value={color}
-        onChange={(e) => setColor(e.target.value)}
+        onChange={clear}
       />
       <p style={textStyle}>{transformTextToEmoji(text)}</p>
     </div>
