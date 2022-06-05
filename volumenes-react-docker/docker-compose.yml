@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  frontend:
+    environment:
+      - CHOKIDAR_USEPOLLING="true"
+      - NODE_ENV=development
+    networks:
+      - volumenes-node-docker_default
+    stdin_open: true
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app/
+      - "/node_modules"
+    tty: true
+
+networks:
+  volumenes-node-docker_default:
+    external:
+      name: volumenes-node-docker_default
